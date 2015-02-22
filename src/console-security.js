@@ -28,7 +28,13 @@
     };
 
     // TODO remove example
-    window.console.security('Security Warning', 'This is a browser feature intended for developers. If someone told you to copy-paste something here to enable a new feature or "hack" someone\'s account, it is a scam and will give them access to your account or personal details.', 'http://localhost:63342/console-security/src/logo.png', 300, 110);
+    window.console.security(
+        'Security Warning',
+        'This is a browser feature intended for developers. If someone told you to copy-paste something here to enable a new feature or "hack" someone\'s account, it is a scam and will give them access to your account or personal details.',
+        'https://raw.githubusercontent.com/walla-rnd/console-security/master/src/logo.png',
+        300,
+        110
+    );
 
 })(window);
 
